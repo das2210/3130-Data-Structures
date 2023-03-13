@@ -1,0 +1,9 @@
+1000 Green Construction   4743.32
+2000 TopLine Plumbing     30.00
+3000 A to Z Bakery        2500.00
+4000 Pathfinder Roofing   1770.43
+5000 Dynamic Windows      10000.00
+6000 Harbor Renovation    0.00
+7000 Olsen's              500.00
+8000 Xpress House Repairs 600.00
+9000 Dragonfruit Design   10.00

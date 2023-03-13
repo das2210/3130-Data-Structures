@@ -1,0 +1,94 @@
+Green Construction  	1000
+                      Previous Balance:   4743.32
+1260 Hammer                19.98          
+1261 Nails                 349.50         
+1262 Screwdriver A         140.00         
+1263 Screwdriver B         112.00         
+5260 Payment                80.00
+5261 Payment               100.00*
+                        Current Balance: 5134.80
+
+
+TopLine Plumbing    	2000
+                      Previous Balance:   30.00
+6533 Wetting Agent         89.99          
+6444 Digital Elec Gauge    136.00         
+6555 Rope                  27.96          
+6700 Payment                30.00
+                        Current Balance: 253.95
+
+
+A to Z Bakery       	3000
+                      Previous Balance:   2500.00
+8123 Soil                  127.50         
+8888 Hose                  5.00           
+6798 Twine                 29.95          
+8531 Payment               100.00
+                        Current Balance: 2562.45
+
+
+Pathfinder Roofing  	4000
+                      Previous Balance:   1770.43
+1365 Bucket                209.90         
+1366 Drill                 139.37         
+5365 Payment               100.00*
+5366 Payment               250.00
+                        Current Balance: 1754.70
+
+
+Dynamic Windows     	5000
+                      Previous Balance:   10000.00
+6630 Drill                 180.00         
+6632 Pliers                60.00          
+6633 Impact Wrench         1362.69        
+6634 Paint                 669.00         
+                        Current Balance: 12271.69
+
+
+Harbor Renovation   	6000
+                      Previous Balance:   0.00
+7770 Wood Planks Grey      30575.00       
+7769 Wood Planks           21000.00       
+8765 Payment                15.75
+8180 Payment               500.00
+                        Current Balance: 51059.25
+
+
+Olsen's             	7000
+                      Previous Balance:   500.00
+5560 Crown Molding         18000.00       
+5544 Wall Panel            50012.50       
+5521 Batteries AA          439.80         
+5510 Batteries AAA         457.60         
+8520 Payment              1500.54
+                        Current Balance: 67909.36
+
+
+Xpress House Repairs	8000
+                      Previous Balance:   600.00
+9979 Payment               200.00
+9989 Payment               200.00
+9390 Payment               150.00
+9707 Payment                50.00
+                        Current Balance: 0.00
+
+
+Dragonfruit Design  	9000
+                      Previous Balance:   10.00
+8093 Shelf Leveling        19.99          
+9876 Toolset               98.64          
+9003 Payment                30.00
+9007 Payment                52.99
+                        Current Balance: 45.64
+
+
+fred                	6565
+                      Previous Balance:   0.00
+3246 Ceiling Tiles         30000.00       
+3247 Paint                 2082.60        
+4327 Payment               550.00*
+4392 Payment               200.00
+                        Current Balance: 31277.60
+
+
+* means discount was applied (Payments)
