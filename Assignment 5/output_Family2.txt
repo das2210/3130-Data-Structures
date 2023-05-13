@@ -1,0 +1,76 @@
+ORIGINAL DATA: 
+
+[[Alexander, 2], [Joe, 3], [Phillip, 1], [Olivia, 0], [Terresa, 4], [Taki, 1], [May, 2], [June, 1], [Yardy, 0], [Umi, 1], [Sanno, 0], [Sky, 0], [Uddin, 1], [Green, 0], [Carl, 0], [Terrance, 0], [TJ, 0], [Emerson, 0]]
+
+
+GENERAL TREE 
+(parent-children groupings represented in an arraylist) 
+
+[[[Alexander, 2], [Joe, 3], [Phillip, 1]], [[Joe, 3], [Olivia, 0], [Terresa, 4], [Taki, 1]], [[Phillip, 1], [May, 2]], [[Olivia, 0]], [[Terresa, 4], [June, 1], [Yardy, 0], [Umi, 1], [Sanno, 0]], [[Taki, 1], [Sky, 0]], [[May, 2], [Uddin, 1], [Green, 0]], [[June, 1], [Carl, 0]], [[Yardy, 0]], [[Umi, 1], [Terrance, 0]], [[Sanno, 0]], [[Sky, 0]], [[Uddin, 1], [TJ, 0]], [[Green, 0]], [[Carl, 0]], [[Terrance, 0]], [[TJ, 0]], [[Emerson, 0]]]
+
+
+THE BINARY TREE INORDER:
+
+[Olivia, 0] [Carl, 0] [June, 1] [Yardy, 0] [Terrance, 0] [Umi, 1] [Sanno, 0] [Terresa, 4] [Sky, 0] [Taki, 1] [Joe, 3] [TJ, 0] [Uddin, 1] [Green, 0] [May, 2] [Phillip, 1] [Alexander, 2] 
+
+ELDEST CHILD OF GIVEN PARENT:
+
+[Alexander, 2]'s eldest child [Joe, 3]
+[Joe, 3]'s eldest child [Olivia, 0]
+[Olivia, 0] no children 
+[Terresa, 4]'s eldest child [June, 1]
+[June, 1]'s eldest child [Carl, 0]
+[Carl, 0] no children 
+[Yardy, 0] no children 
+[Umi, 1]'s eldest child [Terrance, 0]
+[Terrance, 0] no children 
+[Sanno, 0] no children 
+[Taki, 1]'s eldest child [Sky, 0]
+[Sky, 0] no children 
+[Phillip, 1]'s eldest child [May, 2]
+[May, 2]'s eldest child [Uddin, 1]
+[Uddin, 1]'s eldest child [TJ, 0]
+[TJ, 0] no children 
+[Green, 0] no children 
+
+
+YOUNGEST SIBLING AMONG SIBLINGS:
+
+[Carl, 0] has no siblings
+[Terrance, 0] has no siblings
+[Sanno, 0] has no siblings
+[Umi, 1]'s youngest sibling is [Sanno, 0]
+[Yardy, 0]'s youngest sibling is [Sanno, 0]
+[June, 1]'s youngest sibling is [Sanno, 0]
+[Sky, 0] has no siblings
+[Taki, 1] has no siblings
+[Terresa, 4]'s youngest sibling is [Taki, 1]
+[Olivia, 0]'s youngest sibling is [Taki, 1]
+[TJ, 0] has no siblings
+[Green, 0] has no siblings
+[Uddin, 1]'s youngest sibling is [Green, 0]
+[May, 2] has no siblings
+[Phillip, 1] has no siblings
+[Joe, 3]'s youngest sibling is [Phillip, 1]
+[Alexander, 2] has no siblings
+
+
+ALL CHILDREN OF GIVEN PARENT
+
+[Alexander, 2]'s child(ren) [Joe, 3] [Phillip, 1] 
+[Joe, 3]'s child(ren) [Olivia, 0] [Terresa, 4] [Taki, 1] 
+[Olivia, 0] 0 children
+[Terresa, 4]'s child(ren) [June, 1] [Yardy, 0] [Umi, 1] [Sanno, 0] 
+[June, 1]'s child(ren) [Carl, 0] 
+[Carl, 0] 0 children
+[Yardy, 0] 0 children
+[Umi, 1]'s child(ren) [Terrance, 0] 
+[Terrance, 0] 0 children
+[Sanno, 0] 0 children
+[Taki, 1]'s child(ren) [Sky, 0] 
+[Sky, 0] 0 children
+[Phillip, 1]'s child(ren) [May, 2] 
+[May, 2]'s child(ren) [Uddin, 1] [Green, 0] 
+[Uddin, 1]'s child(ren) [TJ, 0] 
+[TJ, 0] 0 children
+[Green, 0] 0 children

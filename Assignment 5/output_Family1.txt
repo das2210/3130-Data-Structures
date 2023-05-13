@@ -1,0 +1,52 @@
+ORIGINAL DATA: 
+
+[[Jones, 3], [Bob, 2], [Dan, 0], [Brian, 1], [Richard, 0], [Jake, 1], [Michael, 1], [Bill, 0], [Deville, 0]]
+
+
+GENERAL TREE 
+(parent-children groupings represented in an arraylist) 
+
+[[[Jones, 3], [Bob, 2], [Dan, 0], [Brian, 1]], [[Bob, 2], [Richard, 0], [Jake, 1]], [[Dan, 0]], [[Brian, 1], [Michael, 1]], [[Richard, 0]], [[Jake, 1], [Bill, 0]], [[Michael, 1], [Deville, 0]], [[Bill, 0]], [[Deville, 0]]]
+
+
+THE BINARY TREE INORDER:
+
+[Richard, 0] [Bill, 0] [Jake, 1] [Bob, 2] [Dan, 0] [Deville, 0] [Michael, 1] [Brian, 1] [Jones, 3] 
+
+ELDEST CHILD OF GIVEN PARENT:
+
+[Jones, 3]'s eldest child [Bob, 2]
+[Bob, 2]'s eldest child [Richard, 0]
+[Richard, 0] no children 
+[Jake, 1]'s eldest child [Bill, 0]
+[Bill, 0] no children 
+[Dan, 0] no children 
+[Brian, 1]'s eldest child [Michael, 1]
+[Michael, 1]'s eldest child [Deville, 0]
+[Deville, 0] no children 
+
+
+YOUNGEST SIBLING AMONG SIBLINGS:
+
+[Bill, 0] has no siblings
+[Jake, 1] has no siblings
+[Richard, 0]'s youngest sibling is [Jake, 1]
+[Deville, 0] has no siblings
+[Michael, 1] has no siblings
+[Brian, 1] has no siblings
+[Dan, 0]'s youngest sibling is [Brian, 1]
+[Bob, 2]'s youngest sibling is [Brian, 1]
+[Jones, 3] has no siblings
+
+
+ALL CHILDREN OF GIVEN PARENT
+
+[Jones, 3]'s child(ren) [Bob, 2] [Dan, 0] [Brian, 1] 
+[Bob, 2]'s child(ren) [Richard, 0] [Jake, 1] 
+[Richard, 0] 0 children
+[Jake, 1]'s child(ren) [Bill, 0] 
+[Bill, 0] 0 children
+[Dan, 0] 0 children
+[Brian, 1]'s child(ren) [Michael, 1] 
+[Michael, 1]'s child(ren) [Deville, 0] 
+[Deville, 0] 0 children

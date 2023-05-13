@@ -1,0 +1,79 @@
+ORIGINAL DATA: 
+
+[[Vandy, 5], [Tanner, 2], [Kate, 1], [Jack, 0], [Hurley, 0], [Vincent, 2], [EJ, 0], [Kenny, 0], [Walter, 2], [Pyro, 1], [Ken, 1], [Jesse, 0], [RJ, 3], [Ethan, 0], [Ben, 0], [Bernard, 0], [Ford, 0], [Dolores, 0]]
+
+
+GENERAL TREE 
+(parent-children groupings represented in an arraylist) 
+
+[[[Vandy, 5], [Tanner, 2], [Kate, 1], [Jack, 0], [Hurley, 0], [Vincent, 2]], [[Tanner, 2], [EJ, 0], [Kenny, 0]], [[Kate, 1], [Walter, 2]], [[Jack, 0]], [[Hurley, 0]], [[Vincent, 2], [Pyro, 1], [Ken, 1]], [[EJ, 0]], [[Kenny, 0]], [[Walter, 2], [Jesse, 0], [RJ, 3]], [[Pyro, 1], [Ethan, 0]], [[Ken, 1], [Ben, 0]], [[Jesse, 0]], [[RJ, 3], [Bernard, 0], [Ford, 0], [Dolores, 0]], [[Ethan, 0]], [[Ben, 0]], [[Bernard, 0]], [[Ford, 0]], [[Dolores, 0]]]
+
+
+THE BINARY TREE INORDER:
+
+[EJ, 0] [Kenny, 0] [Tanner, 2] [Jesse, 0] [Bernard, 0] [Ford, 0] [Dolores, 0] [RJ, 3] [Walter, 2] [Kate, 1] [Jack, 0] [Hurley, 0] [Ethan, 0] [Pyro, 1] [Ben, 0] [Ken, 1] [Vincent, 2] [Vandy, 5] 
+
+ELDEST CHILD OF GIVEN PARENT:
+
+[Vandy, 5]'s eldest child [Tanner, 2]
+[Tanner, 2]'s eldest child [EJ, 0]
+[EJ, 0] no children 
+[Kenny, 0] no children 
+[Kate, 1]'s eldest child [Walter, 2]
+[Walter, 2]'s eldest child [Jesse, 0]
+[Jesse, 0] no children 
+[RJ, 3]'s eldest child [Bernard, 0]
+[Bernard, 0] no children 
+[Ford, 0] no children 
+[Dolores, 0] no children 
+[Jack, 0] no children 
+[Hurley, 0] no children 
+[Vincent, 2]'s eldest child [Pyro, 1]
+[Pyro, 1]'s eldest child [Ethan, 0]
+[Ethan, 0] no children 
+[Ken, 1]'s eldest child [Ben, 0]
+[Ben, 0] no children 
+
+
+YOUNGEST SIBLING AMONG SIBLINGS:
+
+[Kenny, 0] has no siblings
+[EJ, 0]'s youngest sibling is [Kenny, 0]
+[Dolores, 0] has no siblings
+[Ford, 0]'s youngest sibling is [Dolores, 0]
+[Bernard, 0]'s youngest sibling is [Dolores, 0]
+[RJ, 3] has no siblings
+[Jesse, 0]'s youngest sibling is [RJ, 3]
+[Walter, 2] has no siblings
+[Ethan, 0] has no siblings
+[Ben, 0] has no siblings
+[Ken, 1] has no siblings
+[Pyro, 1]'s youngest sibling is [Ken, 1]
+[Vincent, 2] has no siblings
+[Hurley, 0]'s youngest sibling is [Vincent, 2]
+[Jack, 0]'s youngest sibling is [Vincent, 2]
+[Kate, 1]'s youngest sibling is [Vincent, 2]
+[Tanner, 2]'s youngest sibling is [Vincent, 2]
+[Vandy, 5] has no siblings
+
+
+ALL CHILDREN OF GIVEN PARENT
+
+[Vandy, 5]'s child(ren) [Tanner, 2] [Kate, 1] [Jack, 0] [Hurley, 0] [Vincent, 2] 
+[Tanner, 2]'s child(ren) [EJ, 0] [Kenny, 0] 
+[EJ, 0] 0 children
+[Kenny, 0] 0 children
+[Kate, 1]'s child(ren) [Walter, 2] 
+[Walter, 2]'s child(ren) [Jesse, 0] [RJ, 3] 
+[Jesse, 0] 0 children
+[RJ, 3]'s child(ren) [Bernard, 0] [Ford, 0] [Dolores, 0] 
+[Bernard, 0] 0 children
+[Ford, 0] 0 children
+[Dolores, 0] 0 children
+[Jack, 0] 0 children
+[Hurley, 0] 0 children
+[Vincent, 2]'s child(ren) [Pyro, 1] [Ken, 1] 
+[Pyro, 1]'s child(ren) [Ethan, 0] 
+[Ethan, 0] 0 children
+[Ken, 1]'s child(ren) [Ben, 0] 
+[Ben, 0] 0 children
